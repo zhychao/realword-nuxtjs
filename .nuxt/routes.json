@@ -1,0 +1,51 @@
+[
+  {
+    "path": "/",
+    "component": "E:\\\\Work\\\\code\\\\realword-nuxtjs\\\\pages\\\\layout",
+    "children": [
+      {
+        "path": "",
+        "name": "home",
+        "component": "E:\\\\Work\\\\code\\\\realword-nuxtjs\\\\pages\\\\home",
+        "_name": "_054f04ca"
+      },
+      {
+        "path": "/login",
+        "name": "login",
+        "component": "E:\\\\Work\\\\code\\\\realword-nuxtjs\\\\pages\\\\login",
+        "_name": "_a42103a6"
+      },
+      {
+        "path": "/register",
+        "name": "register",
+        "component": "E:\\\\Work\\\\code\\\\realword-nuxtjs\\\\pages\\\\login",
+        "_name": "_a42103a6"
+      },
+      {
+        "path": "/profile/:username",
+        "name": "profile",
+        "component": "E:\\\\Work\\\\code\\\\realword-nuxtjs\\\\pages\\\\profile",
+        "_name": "_6da11126"
+      },
+      {
+        "path": "/settings",
+        "name": "settings",
+        "component": "E:\\\\Work\\\\code\\\\realword-nuxtjs\\\\pages\\\\settings",
+        "_name": "_2400f242"
+      },
+      {
+        "path": "/editor",
+        "name": "editor",
+        "component": "E:\\\\Work\\\\code\\\\realword-nuxtjs\\\\pages\\\\editor",
+        "_name": "_03746b29"
+      },
+      {
+        "path": "/article/:slug",
+        "name": "article",
+        "component": "E:\\\\Work\\\\code\\\\realword-nuxtjs\\\\pages\\\\article",
+        "_name": "_a00c8a8c"
+      }
+    ],
+    "_name": "_0f4344e6"
+  }
+]

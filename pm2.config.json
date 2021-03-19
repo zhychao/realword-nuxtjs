@@ -1,7 +1,7 @@
 {
     "apps":[
         {
-            "name":"npm",
+            "name":"realword",
             "script":"npm",
             "args":"start"
         }

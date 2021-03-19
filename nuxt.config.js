@@ -3,7 +3,6 @@ module.exports={
     router: {
         linkActiveClass:'active',
         extendRoutes(routes, resolve) {
-            console.log(routes)
             routes.splice(0)
             routes.push(...[
                 {

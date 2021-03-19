@@ -3,8 +3,8 @@
 
   <div class="banner">
     <div class="container">
-      <h1 class="logo-font">拉钩教育2021/3/19 www 改 test conduit</h1>
-      <p>A place to share your knowledge.</p>
+      <h1 class="logo-font">拉钩教育2021/3/19 conduit</h1>
+      <p>A place to share your knowledge. 测试</p>
     </div>
   </div>
 

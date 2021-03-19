@@ -54,8 +54,8 @@ const getArticles = slug => {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./pages/home/index.vue?vue&type=template&id=f927a4fc&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"home-page"},[_vm._ssrNode("<div class=\"banner\"><div class=\"container\"><h1 class=\"logo-font\">conduit</h1> <p>A place to share your knowledge.</p></div></div> "),_vm._ssrNode("<div class=\"container page\">","</div>",[_vm._ssrNode("<div class=\"row\">","</div>",[_vm._ssrNode("<div class=\"col-md-9\">","</div>",[_vm._ssrNode("<div class=\"feed-toggle\">","</div>",[_vm._ssrNode("<ul class=\"nav nav-pills outline-active\">","</ul>",[(_vm.user)?_vm._ssrNode("<li"+(_vm._ssrClass("nav-item",{active:_vm.tab==='your_feed'}))+">","</li>",[_c('nuxt-link',{staticClass:"nav-link",attrs:{"exact":"","to":{name:'home',query:{tab:'your_feed'}}}},[_vm._v("Your Feed")])],1):_vm._e(),_vm._ssrNode(" "),_vm._ssrNode("<li"+(_vm._ssrClass("nav-item",{active:_vm.tab==='global_feed'}))+">","</li>",[_c('nuxt-link',{staticClass:"nav-link",attrs:{"exact":"","to":{name:'home',query:{tab:'global_feed'}}}},[_vm._v("Global Feed")])],1),_vm._ssrNode(" "),(_vm.tag)?_vm._ssrNode("<li class=\"nav-item\">","</li>",[_c('nuxt-link',{staticClass:"nav-link active",attrs:{"to":{name:'home',query:{tab:'tag',tag:_vm.tag}}}},[_vm._v("#"+_vm._s(_vm.tag))])],1):_vm._e()],2)]),_vm._ssrNode(" "),_vm._l((_vm.articles),function(article,index){return _vm._ssrNode("<div class=\"article-preview\">","</div>",[_vm._ssrNode("<div class=\"article-meta\">","</div>",[_c('nuxt-link',{attrs:{"to":{
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./pages/home/index.vue?vue&type=template&id=0e6d7f92&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"home-page"},[_vm._ssrNode("<div class=\"banner\"><div class=\"container\"><h1 class=\"logo-font\">拉钩教育2021/3/19 conduit</h1> <p>A place to share your knowledge. 测试</p></div></div> "),_vm._ssrNode("<div class=\"container page\">","</div>",[_vm._ssrNode("<div class=\"row\">","</div>",[_vm._ssrNode("<div class=\"col-md-9\">","</div>",[_vm._ssrNode("<div class=\"feed-toggle\">","</div>",[_vm._ssrNode("<ul class=\"nav nav-pills outline-active\">","</ul>",[(_vm.user)?_vm._ssrNode("<li"+(_vm._ssrClass("nav-item",{active:_vm.tab==='your_feed'}))+">","</li>",[_c('nuxt-link',{staticClass:"nav-link",attrs:{"exact":"","to":{name:'home',query:{tab:'your_feed'}}}},[_vm._v("Your Feed")])],1):_vm._e(),_vm._ssrNode(" "),_vm._ssrNode("<li"+(_vm._ssrClass("nav-item",{active:_vm.tab==='global_feed'}))+">","</li>",[_c('nuxt-link',{staticClass:"nav-link",attrs:{"exact":"","to":{name:'home',query:{tab:'global_feed'}}}},[_vm._v("Global Feed")])],1),_vm._ssrNode(" "),(_vm.tag)?_vm._ssrNode("<li class=\"nav-item\">","</li>",[_c('nuxt-link',{staticClass:"nav-link active",attrs:{"to":{name:'home',query:{tab:'tag',tag:_vm.tag}}}},[_vm._v("#"+_vm._s(_vm.tag))])],1):_vm._e()],2)]),_vm._ssrNode(" "),_vm._l((_vm.articles),function(article,index){return _vm._ssrNode("<div class=\"article-preview\">","</div>",[_vm._ssrNode("<div class=\"article-meta\">","</div>",[_c('nuxt-link',{attrs:{"to":{
               name:'profile',
               params:{
                 username:article.author.username
@@ -89,7 +89,7 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/home/index.vue?vue&type=template&id=f927a4fc&
+// CONCATENATED MODULE: ./pages/home/index.vue?vue&type=template&id=0e6d7f92&
 
 // EXTERNAL MODULE: ./api/article.js
 var api_article = __webpack_require__(27);
@@ -282,6 +282,7 @@ var external_vuex_ = __webpack_require__(3);
         article.favoritesCount += 1;
       }
 
+      qq;
       article.articleDisable = false;
     }
 
